@@ -1,0 +1,17 @@
+table {
+    border: 1px solid white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+table th, table td {
+    border: none;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr{
+    height: 40px;
+}

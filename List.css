@@ -1,0 +1,104 @@
+th, td {
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+#button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    /*padding: 10px 20px;*/
+    cursor: pointer;
+    border-radius: 5px;
+}
+button {
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #0056b3;
+}
+th:nth-child(1), td:nth-child(1) {
+    width: 5%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 15%;
+    overflow: hidden;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 20%;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 10%;
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 6.5%;
+}
+
+th:nth-child(6), td:nth-child(6) {
+    width: 21%;
+}
+
+th:nth-child(7), td:nth-child(7) {
+    width: 7%;
+}
+
+th:nth-child(8), td:nth-child(8) {
+    width: 9%;
+}
+
+#search{
+    width: 300px;
+    height: 45px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px
+}
+
+#left{
+    background-color: #c8e364;
+
+}
+#homepage{
+    width: 90%;
+    margin-right: 20px;
+}
+button, input, optgroup, select, textarea {
+    margin: 16px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#logout{
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: inline;
+}
+
+div[style*="overflow-y: auto;"]::-webkit-scrollbar {
+    width: 0px;
+}
